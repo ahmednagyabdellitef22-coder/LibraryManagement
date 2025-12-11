@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+LibraryManagement.csproj.user
+*.suo
+
+# .NET Build output
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
