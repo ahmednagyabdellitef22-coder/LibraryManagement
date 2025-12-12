@@ -4,6 +4,11 @@ namespace LibraryManagement.Models
 {
     public class LibraryContext : DbContext
     {
+        private readonly LibraryContext _context;
+        public LibraryContext(LibraryContext context)
+        {
+            _context = context;
+        }
         public LibraryContext(DbContextOptions<LibraryContext> options) : base(options)
         {
         }
